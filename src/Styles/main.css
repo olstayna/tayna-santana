@@ -33,13 +33,15 @@ body {
     color: var(--textColor);
 }
 
-/* MEDIA QUERYS */
-@media screen and (max-width: 1300px) {
+::-webkit-scrollbar {
+    width: .625rem;
+    height: .625rem;
+    border-radius: 15px
+}
 
-    .projects>h3,
-    .professional>h3 {
-        padding: 2rem 0rem !important;
-    }
+::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: rgb(212, 212, 216);
 }
 
 .container {
@@ -49,6 +51,21 @@ body {
     padding: 0 20px;
     margin-bottom: 5rem;
 }
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 1300px) {
+
+    .projects>h3,
+    .professional>h3 {
+        padding: 2rem 0rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .scroll-to-top {
+      display: none;
+    }
+  }
 
 /* TOGGLE */
 

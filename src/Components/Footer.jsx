@@ -1,8 +1,10 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import ScrollToTop from "react-scroll-to-top";
 
 function Footer() {
     return (
        <section className="container-f">
+          <ScrollToTop smooth style={{ backgroundColor: "#9B2FF5" }}/>
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
