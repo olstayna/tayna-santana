@@ -8,7 +8,7 @@
         "img": "images/buscgame.avif",
         "languages":"HTML, CSS, Bootstrap, Javascript, PHP e MySQL.",
         "type":"Website",
-        "link":"https:/github.com/olstayna/buscgame",
+        "link":"https://github.com/olstayna/buscgame",
         "icons": ["FaHtml5", "FaCss3Alt", "FaBootstrap", "FaJs", "FaPhp", "GrMysql"]
     },
     {
@@ -19,7 +19,7 @@
         "img": "images/africanize.avif",
         "languages":"HTML, CSS, Bootstrap, Javascript, PHP, Laravel e MySQL.",
         "type":"Website",
-        "link":"https:/africanizeoficial.com.br",
+        "link":"https://africanizeoficial.com.br",
         "icons": ["FaHtml5", "FaCss3Alt", "FaBootstrap", "FaJs", "FaPhp", "FaLaravel", "GrMysql"]
     },
     {
@@ -30,7 +30,7 @@
         "img": "images/seguro-agro.avif",
         "languages":"HTML, CSS e Javascript.",
         "type":"Landing Page",
-        "link":"https:/cloud.e-mail.alperseguros.com.br/seguro_agro",
+        "link":"https://cloud.e-mail.alperseguros.com.br/seguro_agro",
         "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
     },
     {
@@ -41,7 +41,7 @@
         "img": "images/vc-seguro.avif",
         "languages":"HTML, CSS e Javascript.",
         "type":"Landing Page",
-        "link":"https:/cloud.e-mail.alperseguros.com.br/fundo_vc_seguro",
+        "link":"https://cloud.e-mail.alperseguros.com.br/fundo_vc_seguro",
         "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
     },
     {
@@ -52,7 +52,7 @@
         "img": "images/seguranca-mobile.avif",
         "languages":"HTML, CSS e Javascript.",
         "type":"Landing Page",
-        "link":"https:/cloud.e-mail.alperseguros.com.br/seguranca-mobile",
+        "link":"https://cloud.e-mail.alperseguros.com.br/seguranca-mobile",
         "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
     },
     {
@@ -63,7 +63,7 @@
         "img": "images/ebook-solix.avif",
         "languages":"HTML, CSS e Javascript.",
         "type":"Landing Page",
-        "link":"https:/cloud.news.solinftec.com/ebook-solix",
+        "link":"https://cloud.news.solinftec.com/ebook-solix",
         "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
     }
 ]
