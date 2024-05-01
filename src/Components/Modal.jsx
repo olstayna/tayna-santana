@@ -34,7 +34,9 @@ const Modal = ({ project, open, onClose }) => {
                             </li>
                             <li>
                                 <span style={{ fontWeight: 'bold' }}>Disponível em:</span>
-                                <span style={{ maxWidth: '80vw', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}><a href={link} target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> {link}</a></span>
+                                <span style={{ maxWidth: '80vw', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                                    <a href={link} target="blank"><FaExternalLinkAlt /> {link}</a>
+                                </span>
                             </li>
                         </ul>
                     </div>
