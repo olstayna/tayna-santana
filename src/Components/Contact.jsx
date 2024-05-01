@@ -6,10 +6,10 @@ function Contact() {
                 <h3>Gostou do meu trabalho? Não perca tempo! Entre em contato comigo :)</h3>
             </div>
             <div className="contactBtns">
-                <a href="https://www.linkedin.com/in/olstayna/" target="blank" className="btnContact">
+                <a href="https://www.linkedin.com/in/olstayna" target="blank" className="btnContact">
                     <span>LinkedIn</span>
                 </a>
-                <a href="https://www.linkedin.com/in/olstayna/" target="blank" className="btnContact">
+                <a href="https://github.com/olstayna" target="blank" className="btnContact">
                     <span>GitHub</span>
                 </a>
                 <a href="mailto:tayna.oliveira.santana@gmail.com" target="blank" className="btnContact">
