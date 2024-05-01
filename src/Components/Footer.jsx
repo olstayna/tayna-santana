@@ -1,7 +1,11 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import ScrollToTop from "react-scroll-to-top";
+import { themeContext } from "../Context";
+import { useContext } from "react";
 
 function Footer() {
+    const theme = useContext(themeContext);
+    const lightMode = theme.state.lightMode;
     return (
        <section className="container-f">
           <ScrollToTop smooth style={{ backgroundColor: "#9B2FF5" }}/>
@@ -29,11 +33,11 @@ function Footer() {
             </div>
             <div className="footer-links">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#about">Sobre mim</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#professional">Histórico profissional</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="/" style={{ color: lightMode ? 'black' : '' }}>Home</a></li>
+                    <li><a href="#about" style={{ color: lightMode ? 'black' : '' }}>Sobre mim</a></li>
+                    <li><a href="#projects" style={{ color: lightMode ? 'black' : '' }}>Projetos</a></li>
+                    <li><a href="#professional" style={{ color: lightMode ? 'black' : '' }}>Histórico profissional</a></li>
+                    <li><a href="#contact" style={{ color: lightMode ? 'black' : '' }}>Contato</a></li>
                 </ul>
                 <p>Projetado e construído por <a href="https://www.linkedin.com/in/olstayna" target="blank">olstayna</a> com <span>&hearts;</span> <br/>Copyright ©️ 2024. Todos os direitos reservados.</p>
             </div>

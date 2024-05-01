@@ -296,9 +296,9 @@ nav a:nth-child(6) {
     .intro {
         flex-direction: column;
         height: 50rem;
-        padding: 0.5rem 1.5rem;
         overflow: hidden;
         margin-top: 3rem;
+        margin-bottom: -3rem;
     }
 
     .i-left {
@@ -385,7 +385,7 @@ nav a:nth-child(6) {
 .about>h3 {
     font-weight: 400;
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1.125rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -453,7 +453,7 @@ nav a:nth-child(6) {
     }
 
     .border {
-        margin: 0 0.48rem;
+        margin: 0.2rem;
     }
 }
 
@@ -493,7 +493,7 @@ nav a:nth-child(6) {
     font-weight: 400;
     padding: 2rem 10rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.125rem;
 }
 
 .swiper_container {
@@ -614,11 +614,6 @@ nav a:nth-child(6) {
 
     .swiper-3d .swiper-wrapper {
         transform-style: flat !important;
-    }
-
-    .project-icons>svg {
-        width: 18px !important;
-        height: 18px !important;
     }
 }
 
@@ -791,10 +786,7 @@ ul li span:first-child {
     }
 
     .modalImage>img {
-        width: 80%;
-        padding-top: 30px;
-        border: none;
-        margin: auto;
+        display: none;
     }
 }
 
@@ -823,7 +815,7 @@ ul li span:first-child {
 }
 
 .leftProfCont>h4 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: .5rem;
 }
 
@@ -896,7 +888,7 @@ ul li span:first-child {
     margin-right: 45px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
     .contactBtns a {
         display: block;
         width: 100%;
@@ -907,6 +899,20 @@ ul li span:first-child {
     .contactBtns a:nth-child(2) {
         width: calc(50% - 5px);
         display: inline;
+    }
+
+    .contactBtns a:nth-child(3){
+        display: flex;
+        justify-content: center;
+    }
+
+    .modalBtn {
+        font-size: revert;
+        margin: auto;
+    }
+
+    .project-details {
+        display: inherit;
     }
 }
 
@@ -958,7 +964,7 @@ ul li span:first-child {
 .footer-links a:hover,
 .personal-info p:hover,
 .footer-icons a:hover {
-    color: var(--secondaryColor);
+    color: var(--secondaryColor) !important;
 }
 
 .footer-links p {
