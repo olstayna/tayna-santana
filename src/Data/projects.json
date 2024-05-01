@@ -1,0 +1,69 @@
+
+[ 
+    {
+        "id": 1,
+        "title":"Buscgame",
+        "short_description":"Site buscador e comparador dos melhores preços pra jogos de vídeo game.",
+        "description":"Site buscador e comparador dos melhores preços pra jogos de vídeo game, simulando um Marketplace e Web Service. Feito durante o curso Técnico em Informática para Internet pela ETEC Lauro Gomes.",
+        "img": "images/buscgame.avif",
+        "languages":"HTML, CSS, Bootstrap, Javascript, PHP e MySQL.",
+        "type":"Website",
+        "link":"https:/github.com/olstayna/buscgame",
+        "icons": ["FaHtml5", "FaCss3Alt", "FaBootstrap", "FaJs", "FaPhp", "GrMysql"]
+    },
+    {
+        "id": 2,
+        "title":"Africanize",
+        "short_description":"Blog CMS de notícias, sendo o portal de comunicações do núcleo Africanize.",
+        "description":"Desenvolvido com HTML, CSS, JS, Bootstrap, PHP, Laravel, SQL e técnicas de SEO, CRO, usabilidade, responsividade e acessibilidade para atender em todos os aspectos o trabalho realizado pela Africanize; um núcleo influente digital nas redes sociais que conta com mais de um milhão de seguidores.",
+        "img": "images/africanize.avif",
+        "languages":"HTML, CSS, Bootstrap, Javascript, PHP, Laravel e MySQL.",
+        "type":"Website",
+        "link":"https:/africanizeoficial.com.br",
+        "icons": ["FaHtml5", "FaCss3Alt", "FaBootstrap", "FaJs", "FaPhp", "FaLaravel", "GrMysql"]
+    },
+    {
+        "id": 3,
+        "title":"LP - Alper Agro",
+        "short_description":"Landing Page feita para Alper Seguros na Adtail.",
+        "description":"Landing Page para captação de clientes, desenvolvido com HTML, CSS, JS e distribuido via Salesforce Marketing Cloud. Feito para o cliente da Adtail, Alper Seguros.",
+        "img": "images/seguro-agro.avif",
+        "languages":"HTML, CSS e Javascript.",
+        "type":"Landing Page",
+        "link":"https:/cloud.e-mail.alperseguros.com.br/seguro_agro",
+        "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
+    },
+    {
+        "id": 4,
+        "title":"LP - Alper Vc+Seguro",
+        "short_description":"Landing Page feita para Alper Seguros na Adtail.",
+        "description":"Landing Page para captação de clientes, desenvolvido com HTML, CSS, JS e distribuido via Salesforce Marketing Cloud. Feito para o cliente da Adtail, Alper Seguros.",
+        "img": "images/vc-seguro.avif",
+        "languages":"HTML, CSS e Javascript.",
+        "type":"Landing Page",
+        "link":"https:/cloud.e-mail.alperseguros.com.br/fundo_vc_seguro",
+        "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
+    },
+    {
+        "id": 5,
+        "title":"LP - Alper Segurança Mobile",
+        "short_description":"Landing Page feita para Alper Seguros na Adtail.",
+        "description":"Landing Page para captação de clientes, desenvolvido com HTML, CSS, JS e distribuido via Salesforce Marketing Cloud. Feito para o cliente da Adtail, Alper Seguros.",
+        "img": "images/seguranca-mobile.avif",
+        "languages":"HTML, CSS e Javascript.",
+        "type":"Landing Page",
+        "link":"https:/cloud.e-mail.alperseguros.com.br/seguranca-mobile",
+        "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
+    },
+    {
+        "id": 6,
+        "title":"LP - Solinftec",
+        "short_description":"Landing Page feita para Solinftec na Adtail.",
+        "description":"Landing Page para captação de clientes, desenvolvido com HTML, CSS, JS e distribuido via Salesforce Marketing Cloud. Feito para o cliente da Adtail, Solinftec.",
+        "img": "images/ebook-solix.avif",
+        "languages":"HTML, CSS e Javascript.",
+        "type":"Landing Page",
+        "link":"https:/cloud.news.solinftec.com/ebook-solix",
+        "icons": ["FaHtml5", "FaCss3Alt", "FaJs"]
+    }
+]

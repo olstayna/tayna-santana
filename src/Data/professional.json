@@ -1,0 +1,24 @@
+[ 
+    {
+        "id": 1,
+        "role":"Desenvolvedora Fullstack",
+        "enterprise": "Exponential Rocks | Remoto",
+        "description":"Desenvolvimento e manutenção de landing pages e websites utilizando técnicas de SEO, usabilidade, acessibilidade e responsividade com linguagens de programação (HTML, CSS, Bootstrap, Wordpress, Javascript, PHP e Laravel), design system, FTP e versionamento de código.",
+        "date":"SET 2021 - SET 2023"
+    },
+    {
+        "id": 2,
+        "role":"Analista de Business Intelligence",
+        "enterprise": "Global Hitss | Remoto",
+        "date":"JAN 2022 - DEZ 2023",
+        "description":"Desenvolvimento de painéis e relatórios com SQL Server, SSIS, SSAS, SSRS e Power BI para a tomada de decisão. Atuando para o Tribunal de Justiça de São Paulo, utilizando metodologia ágil, versionamento de código, armazenamento de dados, modelagem, extração, transformação, carregamento, análise de dados e manutenções."
+
+    },
+    {
+        "id": 3,
+        "role":"Desenvolvedora Front-end",
+        "enterprise": "Adtail | Remoto",
+        "description":"Desenvolvimento de landing pages e manutenção de websites utilizando linguagens de programação, plataformas de CRM e e-commerce (Salesforce, Wordpress, VTEX, Linx Commerce), FTP, versionamento de código e técnicas de SEO e CRO (Otimização e Conversão), gerando leads e vendas.",
+        "date":"DEZ 2023 - ATUAL"
+    }
+]

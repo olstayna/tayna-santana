@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react';
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Professional from './Components/Professional';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import { themeContext } from './Context';
 
 function App() {
+  const theme = useContext(themeContext);
+  const lightMode = theme.state.lightMode;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{background : lightMode? 'linear-gradient(to bottom right,#e4e6ff,#fff 40%,#e4ebff)' : '', color : lightMode? 'black' : ''}}>
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <Professional />
+      <Contact />
+      <Footer />
     </div>
   );
 }

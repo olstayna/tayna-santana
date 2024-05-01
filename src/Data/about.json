@@ -1,0 +1,53 @@
+
+[ 
+    {
+        "id": 1,
+        "name":"HTML",
+        "img": "images/html.svg"
+    },
+    {
+        "id": 2,
+        "name":"CSS",
+        "img": "images/css.svg"
+    },
+    {
+        "id": 3,
+        "name":"Bootstrap",
+        "img": "images/bootstrap.svg"
+    },
+    {
+        "id": 4,
+        "name":"JS",
+        "img": "images/js.svg"
+    },
+    {
+        "id": 5,
+        "name":"PHP",
+        "img": "images/php.svg"
+    },
+    {
+        "id": 6,
+        "name":"Laravel",
+        "img": "images/laravel.svg"
+    },
+    {
+        "id": 7,
+        "name":"React",
+        "img": "images/react.svg"
+    },
+    {
+        "id": 8,
+        "name":"SQL Server",
+        "img": "images/sqlserver.svg"
+    },
+    {
+        "id": 9,
+        "name":"My SQL",
+        "img": "images/mysql.svg"
+    },
+    {
+        "id": 10,
+        "name":"GitHub",
+        "img": "images/github.svg"
+    }
+]
