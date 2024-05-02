@@ -20,10 +20,10 @@ function Footer() {
                     <div className="personal-info">
                         <p>Tayná Santana</p>
                         <div className="footer-icons">
-                            <a href="https://github.com/olstayna" target="blank">
+                            <a href="https://github.com/olstayna" target="blank" aria-label="GitHub">
                                 <FaGithub />
                             </a>
-                            <a href="https://www.linkedin.com/in/olstayna" target="blank">
+                            <a href="https://www.linkedin.com/in/olstayna" target="blank" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </a>
                         </div>
@@ -39,7 +39,7 @@ function Footer() {
                     <li><a href="#professional" style={{ color: lightMode ? 'black' : '' }}>Histórico profissional</a></li>
                     <li><a href="#contact" style={{ color: lightMode ? 'black' : '' }}>Contato</a></li>
                 </ul>
-                <p>Projetado e construído por <a href="https://www.linkedin.com/in/olstayna" target="blank">olstayna</a> com <span>&hearts;</span> <br/>Copyright ©️ 2024. Todos os direitos reservados.</p>
+                <p>Projetado e construído por <a href="https://www.linkedin.com/in/olstayna" target="blank" aria-label="LinkedIn">olstayna</a> com <span>&hearts;</span> <br/>Copyright ©️ 2024. Todos os direitos reservados.</p>
             </div>
         </footer>
 

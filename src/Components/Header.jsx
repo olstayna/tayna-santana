@@ -25,14 +25,14 @@ function Header() {
                 <a href="#projects" style={{ color: lightMode ? 'black' : '' }}>Projetos</a>
                 <a href="#professional" style={{ color: lightMode ? 'black' : '' }}>Histórico profissional</a>
                 <a href="#contact" style={{ color: lightMode ? 'black' : '' }}>Contato</a>                
-                <a href="https://github.com/olstayna" target="blank" className="social-icons" style={{ color: lightMode ? 'black' : '' }}><FaGithub /></a>
-                <a href="https://www.linkedin.com/in/olstayna" target="blank" className="social-icons" style={{ color: lightMode ? 'black' : '' }}><FaLinkedin /></a>
+                <a href="https://github.com/olstayna" target="blank" className="social-icons" aria-label="GitHub" style={{ color: lightMode ? 'black' : '' }}><FaGithub /></a>
+                <a href="https://www.linkedin.com/in/olstayna" target="blank" className="social-icons" aria-label="LinkedIn" style={{ color: lightMode ? 'black' : '' }}><FaLinkedin /></a>
                 <Toggle/>
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                <button className="nav-btn nav-close-btn" onClick={showNavbar} aria-label="Fechar menu de navegação">
                     <FaTimes style={{ color: lightMode ? 'black' : '' }} />
                 </button>
             </nav>
-            <button className="nav-btn" onClick={showNavbar}>
+            <button className="nav-btn" onClick={showNavbar} aria-label="Abrir menu de navegação">
                 <FaBars style={{ color: lightMode ? 'black' : '' }}/>
             </button>
         </header>

@@ -1,7 +1,7 @@
 import WavingHand from "../img/waving-hand.webp";
 import GitHub from "../img/github.png";
 import LinkedIn from "../img/linkedin.png";
-import Memoji from "../img/memoji.png";
+import Memoji from "../img/memoji.webp";
 import Resume from "./Resume";
 import Download from "../img/download.png";
 
