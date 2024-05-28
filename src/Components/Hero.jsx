@@ -18,17 +18,17 @@ function Hero() {
                     </div>
 
                     <div className="i-icons">
-                        <a href="https://github.com/olstayna" target="blank">
+                        <a href="https://github.com/olstayna" target="blank" aria-label="GitHub">
                             <img src={GitHub} alt="Logotipo GitHub" />
                         </a>
-                        <a href="https://www.linkedin.com/in/olstayna/" target="blank">
+                        <a href="https://www.linkedin.com/in/olstayna/" target="blank" aria-label="LinkedIn">
                             <img src={LinkedIn} alt="Logotipo LinkedIn" />
                         </a>
                     </div>
                 </div>
 
                 <div className="i-right">
-                    <img src={Memoji} alt="Avatar estilizado Memoji" />
+                    <img src={Memoji} alt="Avatar estilizado Memoji de Tayná Santana" loading="lazy"/>
                     <div style={{ top: '15rem', left: '10rem' }}>
                         <Resume image={Download} />
                     </div>

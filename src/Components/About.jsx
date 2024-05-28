@@ -23,8 +23,8 @@ function About() {
                         })
                     }
                 </div>
-                <a href="/#contact">
-                    <button className="btn">Entre em contato</button>
+                <a href="/#contact" aria-label="Contato">
+                    <button className="btn" aria-label="Ir para a seção de contato">Entre em contato</button>
                 </a>
             </div>
         </section>

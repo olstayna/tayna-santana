@@ -8,7 +8,7 @@ function Footer() {
     const lightMode = theme.state.lightMode;
     return (
        <section className="container-f">
-          <ScrollToTop smooth style={{ backgroundColor: "#9B2FF5" }}/>
+          <ScrollToTop smooth style={{ backgroundColor: "#9B2FF5" }} width="20px" height="20px"/>
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
@@ -33,11 +33,11 @@ function Footer() {
             </div>
             <div className="footer-links">
                 <ul>
-                    <li><a href="/" style={{ color: lightMode ? 'black' : '' }}>Home</a></li>
-                    <li><a href="#about" style={{ color: lightMode ? 'black' : '' }}>Sobre mim</a></li>
-                    <li><a href="#projects" style={{ color: lightMode ? 'black' : '' }}>Projetos</a></li>
-                    <li><a href="#professional" style={{ color: lightMode ? 'black' : '' }}>Histórico profissional</a></li>
-                    <li><a href="#contact" style={{ color: lightMode ? 'black' : '' }}>Contato</a></li>
+                <li><a href="/" style={{ color: lightMode ? 'black' : '' }} aria-label="Página inicial">Home</a></li>
+                <li><a href="#about" style={{ color: lightMode ? 'black' : '' }} aria-label="Sobre mim">Sobre mim</a></li>
+                <li><a href="#projects" style={{ color: lightMode ? 'black' : '' }} aria-label="Projetos">Projetos</a></li>
+                <li><a href="#professional" style={{ color: lightMode ? 'black' : '' }} aria-label="Histórico profissional">Histórico profissional</a></li>
+                <li><a href="#contact" style={{ color: lightMode ? 'black' : '' }} aria-label="Contato">Contato</a></li>
                 </ul>
                 <p>Projetado e construído por <a href="https://www.linkedin.com/in/olstayna" target="blank" aria-label="LinkedIn">olstayna</a> com <span>&hearts;</span> <br/>Copyright ©️ 2024. Todos os direitos reservados.</p>
             </div>

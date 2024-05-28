@@ -12,7 +12,7 @@ function Contact() {
                 <a href="https://github.com/olstayna" target="blank" className="btnContact">
                     <span>GitHub</span>
                 </a>
-                <a href="mailto:tayna.oliveira.santana@gmail.com" target="blank" className="btnContact">
+                <a href="mailto:tayna.oliveira.santana@gmail.com" target="blank" className="btnContact" aria-label="Enviar e-mail para tayna.oliveira.santana@gmail.com">
                     <span>tayna.oliveira.santana@gmail.com</span>
                 </a>
             </div>
