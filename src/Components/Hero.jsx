@@ -28,7 +28,7 @@ function Hero() {
                 </div>
 
                 <div className="i-right">
-                    <img src={Memoji} alt="Avatar estilizado Memoji de Tayná Santana" loading="lazy"/>
+                    <img src={Memoji} alt="Avatar estilizado Memoji de Tayná Santana"/>
                     <div style={{ top: '15rem', left: '10rem' }}>
                         <Resume image={Download} />
                     </div>
