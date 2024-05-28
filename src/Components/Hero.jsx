@@ -19,10 +19,10 @@ function Hero() {
 
                     <div className="i-icons">
                         <a href="https://github.com/olstayna" target="blank" aria-label="GitHub">
-                            <img src={GitHub} alt="Logotipo GitHub" />
+                            <img src={GitHub} alt="Logotipo GitHub" loading="lazy"/>
                         </a>
                         <a href="https://www.linkedin.com/in/olstayna/" target="blank" aria-label="LinkedIn">
-                            <img src={LinkedIn} alt="Logotipo LinkedIn" />
+                            <img src={LinkedIn} alt="Logotipo LinkedIn" loading="lazy"/>
                         </a>
                     </div>
                 </div>

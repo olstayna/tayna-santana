@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { register } from 'swiper/element/bundle';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -12,7 +11,6 @@ import { ThemeProvider } from './Context';
 
 register();
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -21,5 +19,3 @@ root.render(
     </ThemeProvider>
   </React.StrictMode>
 );
-
-reportWebVitals();
