@@ -24,6 +24,7 @@ a {
     --borderColor: #222440;
     --grey: #acacac;
     --lightModeBg: linear-gradient(to bottom right,#e4e6ff,#fff 40%,#e4ebff);
+    --scrollbar-bg: var(--borderColor);
 }
 
 body {
@@ -32,9 +33,9 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: .625rem;
-    height: .625rem;
-    border-radius: 15px
+    width: .525rem;
+    height: .525rem;
+    background-color: var(--scrollbar-bg);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -70,7 +71,8 @@ body {
 .toggle-container {
     display: flex;
     align-items: center;
-    margin-left: 10rem;
+    position: relative;
+    left: 11.7rem;
 }
 
 .toggle {
@@ -108,12 +110,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    height: 12vh;
     padding: 0 20rem;
-}
-
-.logo {
-    cursor: pointer;
 }
 
 .logo svg {
@@ -485,6 +483,27 @@ nav a:nth-child(6) {
     background: linear-gradient(90deg, #9b2ff5 0%, #8837ee 100%);
 }
 
+.contact-btn {
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(90deg, #9b2ff5 0%, #8837ee 100%);
+    padding: 10px 50px;
+    border: none;
+    box-shadow: none;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+}
+
 .about>a {
     justify-content: center;
     display: flex;
@@ -811,7 +830,7 @@ ul li span:first-child {
     padding: 25px;
     border-radius: 20px;
     margin-bottom: 20px;
-    box-shadow: 20px 5px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .leftProfCont {
@@ -1037,19 +1056,3 @@ ul li span:first-child {
         text-align: center;
     }
 }
-
-#scroll-progress {
-    position: fixed; /* Fixa a barra de progresso na tela */
-    top: 0;
-    right: 0;
-    height: 3px; /* Altura da barra de progresso */
-    width: 100%; /* Largura da barra de progresso */
-    background-color: #ccc; /* Cor de fundo da barra de progresso */
-  }
-  
-  #scroll-progress-bar {
-    height: 100%; /* Altura da barra de progresso */
-    width: 0; /* Largura inicial da barra de progresso (0% de progresso) */
-    background-color: #9B2FF5; /* Cor da barra de progresso */
-  }
-  

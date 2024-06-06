@@ -8,7 +8,7 @@ function Footer() {
     const lightMode = theme.state.lightMode;
     return (
        <section className="container-f">
-          <ScrollToTop smooth style={{ backgroundColor: "#9B2FF5" }} width="20px" height="20px"/>
+          <ScrollToTop smooth style={{ backgroundColor: "#9B2FF5", boxShadow: 'none' }} width="20" height="40"/>
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">

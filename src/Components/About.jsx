@@ -16,7 +16,7 @@ function About() {
                             return (
                                 <div className="tech-icons" key={record.id}>
                                     <div className="border">
-                                        <img src={record.img} alt={`Logo ${record.name}`} title={record.name} />
+                                        <img src={record.img} alt={`Logo ${record.name}`} title={record.name} width="96" height="96"/>
                                     </div>
                                 </div>
                             )
@@ -24,7 +24,7 @@ function About() {
                     }
                 </div>
                 <a href="/#contact" aria-label="Contato">
-                    <button className="btn" aria-label="Ir para a seção de contato">Entre em contato</button>
+                    <button className="contact-btn" aria-label="Ir para a seção de contato">Entre em contato</button>
                 </a>
             </div>
         </section>

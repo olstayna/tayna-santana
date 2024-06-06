@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import About from './Components/About';
@@ -11,8 +11,20 @@ import { themeContext } from './Context';
 function App() {
   const theme = useContext(themeContext);
   const lightMode = theme.state.lightMode;
+
+  useEffect(() => {
+    if (lightMode) {
+      document.documentElement.style.setProperty('--scrollbar-bg', 'var(--textColor)');
+    } else {
+      document.documentElement.style.setProperty('--scrollbar-bg', 'var(--borderColor)');
+    }
+  }, [lightMode]);
+
   return (
-    <div className="App" style={{background : lightMode? 'linear-gradient(to bottom right,#e4e6ff,#fff 40%,#e4ebff)' : '', color : lightMode? 'black' : ''}}>
+    <div className="App" style={{
+      background: lightMode ? 'linear-gradient(to bottom right,#e4e6ff,#fff 40%,#e4ebff)' : '',
+      color: lightMode ? 'black' : ''
+    }}>
       <Header />
       <Hero />
       <About />

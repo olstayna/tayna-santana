@@ -10,7 +10,7 @@ function Resume({ image }) {
     return (
         <a href={ResumePDF} download="Tayna - Dev II.pdf">
             <div className="floatingdiv circle">
-                <img src={image} alt="Ícone para download do currículo" />
+                <img src={image} alt="Ícone para download do currículo" width="47" height="47"/>
                 <span style={{ color: lightMode ? 'white' : '' }}>CV</span>
             </div>
         </a>

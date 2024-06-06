@@ -50,7 +50,7 @@ function Projects() {
                     {ProjectsSlide && ProjectsSlide.map(item => (
                         <SwiperSlide key={item.id} className="slide">
                             <div className="project-image">
-                                <img src={item.img} alt={`Preview do Projeto ${item.title}`} title={item.title} className="slide-photo" />
+                                <img src={item.img} alt={`Preview do Projeto ${item.title}`} title={item.title} className="slide-photo" width="427" height="320"/>
                             </div>
                             <div className="slide-content">
                                 <h4 style={{ color: lightMode ? 'white' : '' }}>{item.title}</h4>
